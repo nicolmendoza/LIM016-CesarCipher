@@ -21,7 +21,7 @@ justify-content: center;
 align-items: center;
 font-size: 45px;
 font-weight: bold;
-background: linear-gradient(200deg, #5522b3,  #220a3d, #071168);
+background: linear-gradient(200deg, #7e22b3,  #220a3d, #5709ff);
 background-size: 400% 300%;
 animation: BgGradient 5s ease infinite
 }
@@ -151,9 +151,6 @@ textarea{
   padding:0%;
   border:none;
   text-align: justify;
-
-
-
 }
 
 #resultado{
@@ -166,7 +163,7 @@ textarea{
 
 
 input[type="number"]{
-  font-size: 20px;
+  font-size: 18px;
   width: 3.5rem;
   padding: 5px;
 
@@ -197,7 +194,7 @@ button{
 
 #enviar , #descifrar , #parrafo{
 
-padding: 1rem 1rem;
+padding: 0.5rem 1rem;
 color: #fff;
 letter-spacing: 1px;
 /* font-size: 1.5rem; */
@@ -205,7 +202,15 @@ transition: 0.2s;
 }
 
 #copiar{
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  letter-spacing: 1px;
+  /* font-size: 1.5rem; */
+  transition: 0.2s;
+}
+
+#limpiar{
+  padding: 0.5rem 1rem;
   color: #fff;
   letter-spacing: 1px;
   /* font-size: 1.5rem; */
@@ -213,9 +218,9 @@ transition: 0.2s;
 }
 
 
-#enviar:hover , #descifrar:hover , #copiar:hover{
+#enviar:hover , #descifrar:hover , #copiar:hover , #limpiar:hover{
 background: #42b9dd;
-box-shadow:0 0 10px  #42b9dd,0 0 40px #42b9dd,0 0 10px #42b9dd;
+box-shadow:0 0 10px  #42b9dd,0 0 20px #42b9dd,0 0 10px #42b9dd;
 transition-delay:0.2s ;
 border: none;
 
@@ -226,12 +231,22 @@ border: none;
   display: flex;
   justify-content: center;
   margin: 15px;
-
 }
 
-#compartir button{
+#limpiando{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+
+#compartir button {
  width: 70%;
 }
+#limpiando button{
+  width: 65%;
+ }
+
 
 #footer{
   display: flex;
@@ -268,18 +283,23 @@ transition: all .4s;
 }
 
 
+.fa-share-alt{
+  color:rgb(250, 250, 250) ;
+  filter: drop-shadow(0px 0px 10px  rgb(255, 255, 255));
+}
+
 .fa-facebook-f{
-  color:blue ;
-  filter: drop-shadow(0px 0px 10px  blue);
+  color:rgb(25, 29, 245) ;
+  filter: drop-shadow(0px 0px 10px  rgb(25, 29, 245));
 }
 .fa-instagram{
-  color:purple ;
-  filter: drop-shadow(0px 0px 10px  purple);
+  color:rgb(199, 21, 223) ;
+  filter: drop-shadow(0px 0px 10px  rgb(199, 21, 223));
 }
 
 .fa-whatsapp{
-  color:green ;
-  filter: drop-shadow(0px 0px 10px  green);
+  color:rgb(72, 221, 13) ;
+  filter: drop-shadow(0px 0px 10px  rgb(72, 221, 13));
 }
 .fa-twitter{
   color:rgb(20, 208, 241) ;
@@ -290,18 +310,38 @@ transition: all .4s;
   color: red;
 }
 
+@media (max-width:1050px) {
+  #container{
+    width: 60%;
+  }
+
 
 @media (max-width:900px) {
   #container{
     width: 50%;
   }
 
+  @media (max-width:800px) {
+    #container{
+      width: 60%;
+    }
+
+
+    textarea{
+      resize: none;
+      height: 90%;
+      width: 80%;
+      padding:0%;
+      border:none;
+      text-align: justify;
+    }
+
 
   }
   @media (max-width:500px) {
     #container{
       width: 70%;
-      height: 60%;
+      height: 80%;
     }
     #h1{
     font-size:2rem ;
@@ -325,7 +365,7 @@ transition: all .4s;
     @media (max-width:400px) {
       #container{
         width: 90%;
-        height: 60%;
+        height: 70%;
       }
 
 label{
@@ -342,3 +382,4 @@ input[type="number"]{
     }
 
 
+  }

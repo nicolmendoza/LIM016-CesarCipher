@@ -8,6 +8,7 @@ var dezplazamiento = document.getElementById('desplazamiento')
 const enviar=document.getElementById('enviar')
 const descifrar=document.getElementById('descifrar')
 const copiar=document.getElementById('copiar')
+const limpiar=document.getElementById('limpiar')
 
 let mnj;
 let num;
@@ -51,4 +52,9 @@ console.log(typeof(texto));
 
 
 document.execCommand('copy')
+})
+
+limpiar.addEventListener('click',(e)=>{
+  e.preventDefault()
+  mensajero.value=""
 })
