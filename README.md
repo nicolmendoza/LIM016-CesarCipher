@@ -3,6 +3,10 @@
 **El Encriptador** es una interfaz que te permite cifrar y descifrar mensajes que quieres compartir de forma rápida y segura. Presenta una interfaz dinámica y fácil de utilizar. Puedes utilizarla tanto en la web como en tu celular.
 
 ## 2. Definición del producto
+## Investigación UX
+Hoy en día la comunicación por las redes sociales ha aumentando significativamente debido a la pandemia. Cada día nos comunicamos por las redes sociales con nuestros diferentes grupos de amigos, familia, trabajo, etc. 
+
+Sin embargo, a veces solo queremos que algunos integrantes de los grupos entiendan nuestro mensaje, ahí nace la necesidad de crear El Encriptador, un sistema que te permite cifrar o descifrar mensajes de manera rápida y segura para compartirlo con solo quienes desees.
 
 ## Principales usuarios del producto
 Los usuarios a quien está dirigido el producto son todas a aquellas personas que al tener varios grupos de conversaciones por redes (WathsApp, Messenger , Telegram, Twitter ,etc) , y solo quieren que sus  mensajes lleguen a ciertas personas , utilizan **El Encriptador** para poder cifrar o descifrar sus mensajes de forma rápida y segura. Esto para mantener su privacidad en temas que son importantes para ellos.
