@@ -1,5 +1,4 @@
-<div align=”center”>![titulo](https://user-images.githubusercontent.com/87873460/137770754-d1a16e76-b81d-4dc8-b9b8-e942bbd8fbb1.JPG</div> )
-## 1. Resumen del proyecto
+                          ![titulo](https://user-images.githubusercontent.com/87873460/137770754-d1a16e76-b81d-4dc8-b9b8-e942bbd8fbb1.JPG)
 **El Encriptador** es una interfaz que te permite cifrar y descifrar mensajes que quieres compartir de forma segura. Presenta una interfaz dinámica y fácil de utilizar. Puedes utilizarla tanto en la web como en tu celular.
 
 ## 2. Definición del producto
