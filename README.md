@@ -5,8 +5,7 @@
 ## 2. Definición del producto
 
 ## Principales usuarios del producto
-
-Los usuarios a quien está dirigido el producto son todas a aquellas personas que al tener varios grupos de conversaciones por redes (WathsApp, Messenger , Telegram, Twitter ,etc) , y solo quieren que sus  mensajes sean entendidos por ciertas personas , utilizan **El Encriptador** para poder cifrar o descifrar sus mensajes de forma rápida y segura. Esto para mantener su privacidad en temas que son importantes para ellos.
+Los usuarios a quien está dirigido el producto son todas a aquellas personas que al tener varios grupos de conversaciones por redes (WathsApp, Messenger , Telegram, Twitter ,etc) , y solo quieren que sus  mensajes lleguen a ciertas personas , utilizan **El Encriptador** para poder cifrar o descifrar sus mensajes de forma rápida y segura. Esto para mantener su privacidad en temas que son importantes para ellos.
 
 ## Objetivos de los usuarios	
 Poder cifrar o descifrar sus mensajes de forma segura y fácil para así poder compartirlo con quienes desee .
