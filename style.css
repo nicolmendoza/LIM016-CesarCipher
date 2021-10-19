@@ -113,7 +113,7 @@ align-items: center;
 margin: auto;
 margin-top: 0;
 background: rgb(21,16,111);
-width: 25%;
+width: 30%;
 height: 75%;
 border:3px solid #3227cd  ;
 border-radius: 20px;
@@ -324,9 +324,9 @@ transition: all .4s;
   color: red;
 }
 
-@media (max-width:1050px) {
+@media (max-width:1000px) {
   #container{
-    width: 60%;
+    width: 50%;
   }
 
 
