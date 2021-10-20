@@ -394,6 +394,11 @@ font-family: 'Iceland', cursive
             label{
               animation: none;
             }
+
+
+            #cifrar:hover , #descifrar:hover , #copiar:hover , #limpiar:hover{
+              box-shadow: none;
+            }
   }
 
 
@@ -417,3 +422,13 @@ font-family: 'Iceland', cursive
 
 
   }
+
+
+  @media (max-width:400px) {
+
+    #container{
+      width: 90%;
+      height: 100%;
+
+
+    }}
