@@ -315,7 +315,7 @@ color: red;
 }
 @media (max-width:800px) {
   #container{
-    width: 45%;
+    width: 47%;
   }
 
 
@@ -338,6 +338,13 @@ color: red;
       width: 50%;
       height: 100%;
 
+    }
+
+    #texto{
+      width: 90%;
+      margin: auto;
+      justify-content: center;
+            align-items: center;
     }
 
 
@@ -406,7 +413,7 @@ font-family: 'Iceland', cursive
   @media (max-width:550px) {
 
     #container{
-      width: 80%;
+      width: 70%;
       height: 100%;
 
 
