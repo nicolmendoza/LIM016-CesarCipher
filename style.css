@@ -27,22 +27,16 @@ animation: BgGradient 5s ease infinite
 100% {background-position: 0% 50%;}
 }
 
-#resultado{
-display: none;
-}
-#resultadoDescifrado{
-display: none;
-}
+
 
 #header{
-height: 20%;
 display: flex;
 justify-content: center;
 align-items: center;
+margin:2rem;
+width: 100%;
+height: 20%;
 }
-
-
-
 
 #header h1 {
 font-size: 3rem;
@@ -50,6 +44,7 @@ color: #fff;
 font-family: Iceland;
 animation: neon2 1s ease-in-out infinite alternate;
 text-align: center;
+justify-content: center;
 }
 
 @keyframes neon2 {
@@ -80,10 +75,11 @@ margin-top: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: auto;
 background: rgb(21,16,111);
 width: 25%;
-height: 90%;
+height: 70%;
+margin: auto;
+
 border:3px solid #3227cd  ;
 border-radius: 20px;
 }
@@ -92,9 +88,8 @@ border-radius: 20px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-width: 100%;
-height: 90%;
-
+margin-top: 1rem;
+margin-bottom: 1rem;
 }
 
 #texto{
@@ -102,10 +97,15 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: auto;
+width: 100%;
 height: 100%;
 
+}
 
+
+#centro{
+
+  width: 100%;
 }
 
 #numero{
@@ -122,10 +122,18 @@ align-items: center;
 
 textarea{
 resize: none;
+width: 100%;
 outline: none;
 border:none;
 text-align: justify;
+overflow: none;
+scroll-margin: none;
 }
+
+#textarea::-webkit-scrollbar{
+  display: none;
+}
+
 
 #resultado{
   background: cornsilk;
@@ -230,7 +238,7 @@ display: flex;
 width: 100vw;
 align-items: center;
 justify-content: space-between;
-height: 20%;
+height: 10%;
 
 }
 
@@ -296,31 +304,26 @@ color: red;
 
 @media (max-width:1000px) {
 #container{
-  width: 50%;
+  width: 35%;
 }
 }
 
 @media (max-width:900px) {
 #container{
-  width: 50%;
+  width: 40%;
 }
 }
 @media (max-width:800px) {
   #container{
-    width: 60%;
+    width: 45%;
   }
 
 
   textarea{
     resize: none;
-    height: 90%;
-    width: 80%;
-    padding:0%;
-    border:none;
-    text-align: justify;
-    outline: none;
-    overflow: none;
-    scroll-margin: none;
+    height: 100%;
+    width: 100%;
+
   }
 
   #textarea::-webkit-scrollbar{
@@ -329,23 +332,22 @@ color: red;
 
 }
 
-  @media (max-width:500px) {
+  @media (max-width:600px) {
+
     #container{
-      width: 90%;
+      width: 50%;
       height: 100%;
+
     }
 
 
     #header h1 {
       font-size: 2rem;
-      color: #fff;
-      font-family: Iceland;
-      animation: neon2 1s ease-in-out infinite alternate;
       text-align: center;
       }
 
 input[type="number"]{
-font-size: 15px;
+font-size: 20px;
 width: 2rem;
 padding: 5px;
 font-family: 'Iceland', cursive
@@ -356,27 +358,18 @@ font-family: 'Iceland', cursive
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
   }
 
   #header h1 {
 
     animation: none
-
-
     }
-
-
-
-  #parrafo{
-    display: none;
-  }
 
   #prueba{
 
     animation: none
     }
-
-
     label{
 
       font-size: 1rem;
@@ -384,37 +377,43 @@ font-family: 'Iceland', cursive
       }
 
 
-
-
-      #copiar{
-        padding: 0.3rem 0.8rem;
-
-
-
-        }
-
-        #limpiar{
-        padding: 0.3rem 0.8rem;
-
-
-        }
-
-
-        #cifrar , #descifrar , #parrafo{
-
-          padding: 0.3rem 0.8rem;
-
-          }
-
-
-
-          button{
-
-            font-size: 0.9rem;
-
+            #footer{
+              align-items: center;
+              justify-content: center;
+              display: grid;
 
             }
 
+            #parrafo {
+              display: flex;
+            }
+
+            #parrafo p{
+              justify-content: center;
+            }
+            label{
+              animation: none;
+            }
   }
 
 
+
+  @media (max-width:550px) {
+
+    #container{
+      width: 80%;
+      height: 100%;
+
+
+    }
+
+#centro{
+
+
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+}
+
+
+  }
