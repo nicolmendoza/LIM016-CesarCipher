@@ -326,9 +326,7 @@ color: red;
 
   }
 
-  #textarea::-webkit-scrollbar{
-    display: none;
-  }
+
 
 }
 
@@ -422,7 +420,7 @@ font-family: 'Iceland', cursive
 #centro{
 
 
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
 
 }
