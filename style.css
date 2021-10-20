@@ -1,17 +1,14 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
 }
 
-/* body{
-  /* background-image: radial-gradient(circle at 50% 50%, #856cc4 0, #6c5ca9 25%, #544b8d 50%, #3e3b72 75%, #2a2b58 100%);
-; */
 
 #prueba{
 
-  flex-direction: column;
-/* height: 100vh; */
+flex-direction: column;
+
 font-family: 'Iceland', cursive;
 position: absolute;
 width: 100vw;
@@ -19,91 +16,66 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 45px;
+
 font-weight: bold;
 background: linear-gradient(200deg, #7e22b3,  #220a3d, #5709ff);
-background-size: 400% 300%;
+background-size:  400% 300%;
 animation: BgGradient 5s ease infinite
 }
 
 @keyframes BgGradient {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
+0% {background-position: 0% 50%;}
+50% {background-position: 100% 50%;}
+100% {background-position: 0% 50%;}
 }
 
 #resultado{
-  display: none;
+display: none;
 }
 #resultadoDescifrado{
-  display: none;
+display: none;
 }
 
 #header{
-  height: 18%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+height: 18%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
-/* #header h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 3rem;
-} */
 
 
 #header h1 {
-  font-size: 3rem;
-  color: #fff;
-  font-family: Iceland;
-  animation: neon2 1s ease-in-out infinite alternate;
-  text-align: center;
+font-size: 3rem;
+color: #fff;
+font-family: Iceland;
+animation: neon2 1s ease-in-out infinite alternate;
+text-align: center;
 }
 
 @keyframes neon2 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
-      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
-      0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
-  }
+from {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+    0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+}
+to {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+    0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+}
 }
 
 label{
-  color: #fff;
-  font-size: 1.5rem;
-  margin: 0px;
-  font-family: Iceland;
-  animation: neon2 1s ease-in-out infinite alternate;
+color: #fff;
+font-size: 1.5rem;
+margin: 0px;
+font-family: Iceland;
+animation: neon2 1s ease-in-out infinite alternate;
 }
 #mensajet{
-  margin-bottom: 1rem;
-  margin-top: 0;
+margin-bottom: 1rem;
+margin-top: 0;
 }
-
-/* #desplazamientot{
-  margin-top: 1rem;
-  background:#228dff;
-} */
-
-/* #header h1 {
-    animation: fluido 10s ease-in-out infinite;
-    background: linear-gradient(-45deg, #5552ee, #511872, #23a6d5, #035974);
-    background-size: 300%;
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-  }
-
-  @keyframes fluido {
-      0% { background-position: 0 50% }
-      50% { background-position: 100% 50% }
-      100% { background-position: 0 50% }
-  } */
 
 
 #container{
@@ -120,30 +92,30 @@ border-radius: 20px;
 }
 
 #form{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+height: 90%;
 
 }
 
 #texto{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
 
 
 }
 
 #numero{
-  display: flex;
-  justify-content:space-around;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  align-items: center;
+display: flex;
+justify-content:space-around;
+margin-top: 1rem;
+margin-bottom: 1rem;
+align-items: center;
 }
 
 
@@ -151,35 +123,35 @@ border-radius: 20px;
 
 
 textarea{
-  resize: none;
-  height: 90%;
-  width: 80%;
-  border:none;
-  text-align: justify;
+resize: none;
+height: 90%;
+width: 80%;
+border:none;
+text-align: justify;
 }
 
 #resultado{
-    background: cornsilk;
+  background: cornsilk;
 }
 #resultadoDescifrado{
-    background: cyan;
+  background: cyan;
 }
 input{
- 
-  font-family: 'Iceland', cursive;
-  border:3px solid #3227cd  ;
+
+font-family: 'Iceland', cursive;
+border:3px solid #3227cd  ;
 }
 
 input[type="number"]{
-  font-size: 25px;
-  width: 3rem;
-  padding: 5px;
+font-size: 25px;
+width: 3rem;
+padding: 5px;
 
 }
 
 #botones{
-  display: flex;
-  justify-content:space-evenly;
+display: flex;
+justify-content:space-evenly;
 
 
 
@@ -187,20 +159,20 @@ input[type="number"]{
 
 
 button{
-  background: none;
-  cursor: pointer;
-  justify-content: center;
-  font-family: 'Iceland', cursive;
-  font-size: 1rem;
-  border:3px solid #2920ac;
-  padding: 10px 10px;
+background: none;
+cursor: pointer;
+justify-content: center;
+font-family: 'Iceland', cursive;
+font-size: 1rem;
+border:3px solid #2920ac;
+padding: 10px 10px;
 
 }
 
 
 
 
-#enviar , #descifrar , #parrafo{
+#cifrar , #descifrar , #parrafo{
 
 padding: 0.5rem 1rem;
 color: #fff;
@@ -210,23 +182,23 @@ transition: 0.2s;
 }
 
 #copiar{
-  padding: 0.5rem 1rem;
-  color: #fff;
-  letter-spacing: 1px;
-  /* font-size: 1.5rem; */
-  transition: 0.2s;
+padding: 0.5rem 1rem;
+color: #fff;
+letter-spacing: 1px;
+/* font-size: 1.5rem; */
+transition: 0.2s;
 }
 
 #limpiar{
-  padding: 0.5rem 1rem;
-  color: #fff;
-  letter-spacing: 1px;
-  /* font-size: 1.5rem; */
-  transition: 0.2s;
+padding: 0.5rem 1rem;
+color: #fff;
+letter-spacing: 1px;
+/* font-size: 1.5rem; */
+transition: 0.2s;
 }
 
 
-#enviar:hover , #descifrar:hover , #copiar:hover , #limpiar:hover{
+#cifrar:hover , #descifrar:hover , #copiar:hover , #limpiar:hover{
 background: #42b9dd;
 box-shadow:0 0 5px  #42b9dd,0 0 5px #42b9dd,0 0 5px #42b9dd;
 transition-delay:0.1s ;
@@ -236,163 +208,218 @@ border: none;
 
 
 #compartir{
-  display: flex;
-  justify-content: center;
-  margin: 1rem;
+display: flex;
+justify-content: center;
+margin: 1rem;
 }
 
 #limpiando{
-  display: flex;
-  justify-content: center;
-  margin: 0px;
+display: flex;
+justify-content: center;
+margin: 0px;
 }
 
 
 #compartir button {
- width: 70%;
+width: 70%;
 }
 #limpiando button{
-  width: 65%;
- }
+width: 65%;
+}
 
 
 #footer{
-  display: flex;
-  width: 100vw;
-  align-items: center;
-  justify-content: space-between;
+display: flex;
+width: 100vw;
+align-items: center;
+justify-content: space-between;
 
 }
 
 #parrafo{
-  font-family: 'Iceland', cursive;font-size: 1rem;
+font-family: 'Iceland', cursive;font-size: 1rem;
 justify-content: center;
 letter-spacing: 2px;
 font-size: 0.8rem;
 }
 
 #enlaces{
-  display: flex;
-  flex-direction: row;
-  justify-content:flex-end;
+display: flex;
+flex-direction: row;
+justify-content:flex-end;
 
 
 }
 
 
 #footer #enlaces i{
- margin: 1rem;
+margin: 1rem;
 border-radius:30px;
 width: 2rem;
 height: 2rem;
- font-size: 1.5rem;
- cursor: pointer;
+font-size: 1.5rem;
+cursor: pointer;
 transition: all .4s;
 }
 
 
 .fa-share-alt{
-  color:rgb(3, 3, 3) ;
-  filter: drop-shadow(0px 0px 10px  rgb(0, 0, 0));
+color:rgb(3, 3, 3) ;
+filter: drop-shadow(0px 0px 10px  rgb(0, 0, 0));
 }
 
 .fa-facebook-messenger{
-  color:rgb(25, 29, 245) ;
-  filter: drop-shadow(0px 0px 10px  rgb(25, 29, 245));
+color:rgb(25, 29, 245) ;
+filter: drop-shadow(0px 0px 10px  rgb(25, 29, 245));
 }
 .fa-instagram{
-  color:rgb(199, 21, 223) ;
-  filter: drop-shadow(0px 0px 10px  rgb(199, 21, 223));
+color:rgb(199, 21, 223) ;
+filter: drop-shadow(0px 0px 10px  rgb(199, 21, 223));
 }
 .fa-telegram-plane{
-  color:rgb(255, 255, 255) ;
-  filter: drop-shadow(0px 0px 10px  rgb(255, 255, 255));
+color:rgb(255, 255, 255) ;
+filter: drop-shadow(0px 0px 10px  rgb(255, 255, 255));
 }
 
 .fa-whatsapp{
-  color:rgb(72, 221, 13) ;
-  filter: drop-shadow(0px 0px 10px  rgb(72, 221, 13));
+color:rgb(72, 221, 13) ;
+filter: drop-shadow(0px 0px 10px  rgb(72, 221, 13));
 }
 .fa-twitter{
-  color:rgb(20, 208, 241) ;
-  filter: drop-shadow(0px 0px 10px  rgb(20, 208, 241));
+color:rgb(20, 208, 241) ;
+filter: drop-shadow(0px 0px 10px  rgb(20, 208, 241));
 }
 
 
 
 .fa-heart{
-  color: red;
+color: red;
 }
 
 @media (max-width:1000px) {
-  #container{
-    width: 50%;
-  }
-
+#container{
+  width: 50%;
+}
+}
 
 @media (max-width:900px) {
+#container{
+  width: 50%;
+}
+}
+@media (max-width:800px) {
   #container{
-    width: 50%;
+    width: 60%;
   }
 
-  @media (max-width:800px) {
+
+  textarea{
+    resize: none;
+    height: 90%;
+    width: 80%;
+    padding:0%;
+    border:none;
+    text-align: justify;
+  }
+
+
+}
+@media (max-width:500px) {
+  #container{
+    width: 70%;
+    height: 80%;
+  }
+  #h1{
+  font-size:2rem ;
+
+}
+#parrafo{
+  display: none;
+}
+
+
+#footer{
+  justify-content: center;
+}
+
+#enlaces{
+  justify-content: center;
+}
+
+  }
+
+  @media (max-width:400px) {
     #container{
-      width: 60%;
-    }
-
-
-    textarea{
-      resize: none;
-      height: 90%;
       width: 80%;
-      padding:0%;
-      border:none;
-      text-align: justify;
+      height: 60%;
     }
 
 
+    #header h1 {
+      font-size: 2rem;
+      color: #fff;
+      font-family: Iceland;
+      animation: neon2 1s ease-in-out infinite alternate;
+      text-align: center;
+      }
+
+input[type="number"]{
+font-size: 15px;
+width: 2rem;
+padding: 5px;
+font-family: 'Iceland', cursive
+
+}
+#header{
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
-  @media (max-width:500px) {
-    #container{
-      width: 70%;
-      height: 80%;
+
+
+
+  #prueba{
+
+    animation: none
     }
-    #h1{
-    font-size:2rem ;
-
-  }
-  #parrafo{
-    display: none;
-  }
 
 
-  #footer{
-    justify-content: center;
-  }
+    label{
 
-  #enlaces{
-    justify-content: center;
-  }
+      font-size: 1rem;
 
-    }
-
-    @media (max-width:400px) {
-      #container{
-        width: 90%;
-        height: 70%;
       }
 
 
-input[type="number"]{
-  font-size: 15px;
-  width: 2rem;
-  padding: 5px;
-  font-family: 'Iceland', cursive
 
-}
 
-    }
+      #copiar{
+        padding: 0.2rem 0.5rem;
 
+
+
+        }
+
+        #limpiar{
+        padding: 0.2rem 0.5rem;
+
+
+        }
+
+
+        #cifrar , #descifrar , #parrafo{
+
+          padding: 0.2rem 0.5rem;
+
+          }
+
+
+          button{
+
+            font-size: 0.9rem;
+
+
+            }
 
   }
-}
