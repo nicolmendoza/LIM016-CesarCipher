@@ -124,8 +124,7 @@ align-items: center;
 
 textarea{
 resize: none;
-height: 90%;
-width: 80%;
+
 border:none;
 text-align: justify;
 }
@@ -377,6 +376,15 @@ font-family: 'Iceland', cursive
   align-items: center;
   }
 
+  #header h1 {
+
+    animation: none
+
+
+    }
+
+
+
   #parrafo{
     display: none;
   }
@@ -416,6 +424,8 @@ font-family: 'Iceland', cursive
 
           }
 
+          textarea{
+            resize: both}
 
           button{
 
@@ -425,3 +435,6 @@ font-family: 'Iceland', cursive
             }
 
   }
+
+
+
