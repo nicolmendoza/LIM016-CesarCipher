@@ -12,7 +12,7 @@
 flex-direction: column;
 font-family: 'Iceland', cursive;
 display: flex;
-height:100vh;
+min-height:100vh;
 justify-content: center;
 align-items: center;
 background: linear-gradient(200deg, #7e22b3,  #220a3d, #5709ff);
@@ -81,10 +81,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: auto;
-margin-top: 0;
 background: rgb(21,16,111);
-width: 30%;
-height: 75%;
+width: 25%;
+height: 90%;
 border:3px solid #3227cd  ;
 border-radius: 20px;
 }
@@ -103,6 +102,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin-top: auto;
 height: 100%;
 
 
@@ -230,6 +230,7 @@ display: flex;
 width: 100vw;
 align-items: center;
 justify-content: space-between;
+height: 20%;
 
 }
 
@@ -317,38 +318,21 @@ color: red;
     padding:0%;
     border:none;
     text-align: justify;
+    outline: none;
+    overflow: none;
+    scroll-margin: none;
   }
 
-
-}
-/* @media (max-width:500px) {
-  #container{
-    width: 70%;
-    height: 80%;
+  #textarea::-webkit-scrollbar{
+    display: none;
   }
-  #h1{
-  font-size:2rem ;
 
 }
-#parrafo{
-  display: none;
-}
-
-
-#footer{
-  justify-content: center;
-}
-
-#enlaces{
-  justify-content: center;
-}
-
-  } */
 
   @media (max-width:500px) {
     #container{
-      width: 80%;
-      height: 60%;
+      width: 90%;
+      height: 100%;
     }
 
 
@@ -403,14 +387,14 @@ font-family: 'Iceland', cursive
 
 
       #copiar{
-        padding: 0.2rem 0.5rem;
+        padding: 0.3rem 0.8rem;
 
 
 
         }
 
         #limpiar{
-        padding: 0.2rem 0.5rem;
+        padding: 0.3rem 0.8rem;
 
 
         }
@@ -418,12 +402,11 @@ font-family: 'Iceland', cursive
 
         #cifrar , #descifrar , #parrafo{
 
-          padding: 0.2rem 0.5rem;
+          padding: 0.3rem 0.8rem;
 
           }
 
-          textarea{
-            resize: both}
+
 
           button{
 
@@ -433,6 +416,5 @@ font-family: 'Iceland', cursive
             }
 
   }
-
 
 
