@@ -20,10 +20,19 @@ La problemática que resuelve **El Encriptador** es el poder enviar y recibir me
 ## Características del **El Encriptador**
 Los usuarios pueden cifrar o descifrar mensajes según el desplazamiento que se les quiera dar que puede ser positivo o negativo. Los mensajes pueden incluir letras minúsculas, mayúsculas, números y otros caracteres. 
 
+## Proceso de creación:
+1. Crear la historia de usuario.
+2. Empezar con el código Javascript.
+3. Crear prototipo en Figma.
+4. Recibir feedback del proyecto, diseño y funcionalidad.
+5. Mejorar el código Javascript.
+6. Realizar el diseño responsive del proyecto.
+7. Presentar el proyecto final.
+
 ## Proceso de diseño
 * La maquetación inicial de la interfaz se realizó en Figma.
 
-![image](https://user-images.githubusercontent.com/87873460/137358785-16713c92-2ad0-48c3-a790-321fff64e4c5.png)
+![image](https://user-images.githubusercontent.com/87873460/138711320-18a0ae72-71eb-4a1c-9c89-11147ccd4e25.png)
 
 * El diseño final se muestra a continuación:
 * Diseño Movil ( iPhone 8 Plus)
@@ -33,14 +42,7 @@ Los usuarios pueden cifrar o descifrar mensajes según el desplazamiento que se 
 * Diseño Web
 ![image](https://user-images.githubusercontent.com/87873460/138707923-2b69974c-0d2c-494f-bfc2-86c0f364f524.png)
 
-## Proceso de creación:
-* 1.Crear la historia de usuario.
-* 2.Empezar con el código Javascript.
-* 3.Crear prototipo en Figma.
-* 4.Recibir feedback del proyecto, diseño y funcionalidad.
-* 5.Mejorar el código Javascript.
-* 6.Realizar el diseño responsive del proyecto.
-*7.Presentar el proyecto final.
+
 
 
 
