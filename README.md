@@ -31,15 +31,15 @@ Los usuarios pueden cifrar o descifrar mensajes según el desplazamiento que se 
 
 ## Proceso de diseño ✍
 * La maquetación inicial de la interfaz se realizó en Figma.
-- ![image](https://user-images.githubusercontent.com/87873460/138711320-18a0ae72-71eb-4a1c-9c89-11147ccd4e25.png)
+![image](https://user-images.githubusercontent.com/87873460/138711320-18a0ae72-71eb-4a1c-9c89-11147ccd4e25.png)
 
 - El diseño final se muestra a continuación:
 
-* Diseño Movil ( iPhone 8 Plus) 📱
+## Diseño Movil ( iPhone 8 Plus) 📱
 - ![movil](https://user-images.githubusercontent.com/87873460/138707374-638d0c76-6321-4f22-ac4a-ea2519223a3f.png)
-* Diseño Ipad (iPaad Pro) 💻
+## Diseño Ipad (iPaad Pro) 💻
  -![image](https://user-images.githubusercontent.com/87873460/138707578-c143c3ae-65d4-40f7-95a7-51eb4abdfe7c.png)
-* Diseño Web 🖥
+## Diseño Web 🖥
  -![image](https://user-images.githubusercontent.com/87873460/138707923-2b69974c-0d2c-494f-bfc2-86c0f364f524.png)
 
 
