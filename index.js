@@ -2,14 +2,12 @@ import cipher from './cipher.js';
 
 
 
-var mensaje = document.getElementById('mensaje')
-var dezplazamiento = document.getElementById('desplazamiento')
+const mensaje = document.getElementById('mensaje')
+const dezplazamiento = document.getElementById('desplazamiento')
 const cifrar=document.getElementById('cifrar')
 const descifrar=document.getElementById('descifrar')
 const copiar=document.getElementById('copiar')
 const limpiar=document.getElementById('limpiar')
-
-
 
 cifrar.addEventListener('click',(e)=> {
 
