@@ -1,54 +1,43 @@
 import cipher from './cipher.js';
 
 
-let resultado = document.getElementById("resultado")
-let resultadoDes = document.getElementById('resultadoDescifrado')
-var mensajero = document.getElementById('mensaje')
-var dezplazamiento = document.getElementById('desplazamiento')
-const enviar=document.getElementById('enviar')
+
+const mensaje = document.getElementById('mensaje')
+const dezplazamiento = document.getElementById('desplazamiento')
+const cifrar=document.getElementById('cifrar')
 const descifrar=document.getElementById('descifrar')
 const copiar=document.getElementById('copiar')
-
-let mnj;
-let num;
+const limpiar=document.getElementById('limpiar')
 
 
 
-enviar.addEventListener('click',()=> {
+cifrar.addEventListener('click',(e)=> {
 
-     mnj = mensajero.value;
-     num = Number(dezplazamiento.value);
-    // console.log(mnj, num);
-    cipher.encode(num,mnj )
+e.preventDefault()
+    let ecp =  cipher.encode(Number(dezplazamiento.value),mensaje.value)
+    mensaje.value = ecp
 
-    // console.log(cipher.encode(mnj, num));
-    var ecp = resultado.textContent = cipher.encode(num,mnj)
-    return mensajero.value = ecp
-
+    return mensaje
 })
 
 
+descifrar.addEventListener('click',(e)=>{
 
+e.preventDefault()
+    var dcp = cipher.decode( Number(dezplazamiento.value),mensaje.value)
+    mensaje.value = dcp
 
-descifrar.addEventListener('click',()=>{
-
-
-    cipher.decode( Number(dezplazamiento.value),mensajero.value)
-
-    // console.log(cipher.decode(mensajero.value, Number(dezplazamiento.value)))
-    var ecp = resultadoDes.textContent = cipher.decode( Number(dezplazamiento.value),mensajero.value)
-    return mensajero.value = ecp
+    return mensaje
 })
-
 
 
 copiar.addEventListener('click',(e)=>{
   e.preventDefault()
-
   document.getElementById('mensaje').select()
-let texto=mensajero.value
-console.log(typeof(texto));
-
-
 document.execCommand('copy')
+})
+
+limpiar.addEventListener('click',(e)=>{
+  e.preventDefault()
+  mensaje.value=""
 })
