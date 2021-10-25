@@ -21,25 +21,25 @@ La problemática que resuelve **El Encriptador** es el poder enviar y recibir me
 Los usuarios pueden cifrar o descifrar mensajes según el desplazamiento que se les quiera dar que puede ser positivo o negativo. Los mensajes pueden incluir letras minúsculas, mayúsculas, números y otros caracteres. 
 
 ## Proceso de diseño
-*La maquetación inicial de la interfaz se realizó en Figma.
+* La maquetación inicial de la interfaz se realizó en Figma.
 
 ![image](https://user-images.githubusercontent.com/87873460/137358785-16713c92-2ad0-48c3-a790-321fff64e4c5.png)
 
-*El diseño final se muestra a continuación:
-*Diseño Movil ( iPhone 8 Plus)
+* El diseño final se muestra a continuación:
+* Diseño Movil ( iPhone 8 Plus)
 ![image](https://user-images.githubusercontent.com/87873460/138707374-638d0c76-6321-4f22-ac4a-ea2519223a3f.png)
-*Diseño Ipad (iPaad Pro)
+* Diseño Ipad (iPaad Pro)
 ![image](https://user-images.githubusercontent.com/87873460/138707578-c143c3ae-65d4-40f7-95a7-51eb4abdfe7c.png)
-*Diseño Web
+* Diseño Web
 ![image](https://user-images.githubusercontent.com/87873460/138707923-2b69974c-0d2c-494f-bfc2-86c0f364f524.png)
 
 ## Proceso de creación:
-*1.Crear la historia de usuario.
-*2.Empezar con el código Javascript.
-*3.Crear prototipo en Figma.
-*4.Recibir feedback del proyecto, diseño y funcionalidad.
-*5.Mejorar el código Javascript.
-*6.Realizar el diseño responsive del proyecto.
+* 1.Crear la historia de usuario.
+* 2.Empezar con el código Javascript.
+* 3.Crear prototipo en Figma.
+* 4.Recibir feedback del proyecto, diseño y funcionalidad.
+* 5.Mejorar el código Javascript.
+* 6.Realizar el diseño responsive del proyecto.
 *7.Presentar el proyecto final.
 
 
